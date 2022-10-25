@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+	<html lang="en">
+	
+	<head>
+	  <meta charset="utf-8">
+	  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	  <meta name="description" content="">
+	  <meta name="author" content="">
+	
+	  <title>Python | Proyecto Python</title>
+	
+	  <!-- css -->
+	  <link href="static/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+	  <link href="static/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+	  <link href="static/css/nivo-lightbox.css" rel="stylesheet" />
+	  <link href="static/css/nivo-lightbox-theme/default/default.css" rel="stylesheet" type="text/css" />
+	  <link href="static/css/owl.carousel.css" rel="stylesheet" media="screen" />
+	  <link href="static/css/owl.theme.css" rel="stylesheet" media="screen" />
+	  <link href="static/css/flexslider.css" rel="stylesheet" />
+	  <link href="static/css/animate.css" rel="stylesheet" />
+	  <link href="static/css/style.css" rel="stylesheet">
+	  <link href="static/color/default.css" rel="stylesheet">
+	
+	</head>
+	
+	<body id="page-top" data-spy="scroll" data-target=".navbar-custom">
+	
+	 
+	
+	  <!-- Navigation -->
+	  <div id="navigation">
+		<nav class="navbar navbar-custom" role="navigation">
+		  <div class="container">
+			<div class="row">
+			  <div class="col-md-2 mob-logo">
+				<div class="row">
+				  <div class="site-logo">
+					<a href="index.html"><img src="static/img/logo-dark.png" alt="" /></a>
+				  </div>
+				</div>
+			  </div>
+	
+	
+			  <div class="col-md-10 mob-menu">
+				<div class="row">
+				  <!-- Brand and toggle get grouped for better mobile display -->
+				  <div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#menu">
+													<i class="fa fa-bars"></i>
+													</button>
+				  </div>
+				  <!-- Collect the nav links, forms, and other content for toggling -->
+				  <div class="collapse navbar-collapse" id="menu">
+					<ul class="nav navbar-nav navbar-right">
+					  <li class="active"><a href="{{url_for('index')}}">Inicio</a></li>
+					  <li class="active"><a href="{{url_for('registro')}}">Nuevo Registro</a></li>
+					</ul>
+				  </div>
+				  <!-- /.Navbar-collapse -->
+				</div>
+			  </div>
+			</div>
+		  </div>
+		  <!-- /.container -->
+		</nav>
+	  </div>
+	  <!-- /Navigation -->
+	
+	  <!-- Section: about -->
+	  <section id="about" class="home-section color-dark bg-white">
+		<div class="container marginbot-50">
+		  <div class="row">
+			<div class="col-lg-8 col-lg-offset-2">
+			  <div class="wow flipInY" data-wow-offset="0" data-wow-delay="0.4s">
+				<div class="section-heading text-center">
+				  <h2 class="h-bold">Base de datos</h2>
+				  <div class="divider-header"></div>
+				  
+<table border="1">
+    <thead cellpadding="1.0" cellspacing="1.0">
+        <tr>
+            <th>Fecha</th>
+            <th>Laboratorio</th>   
+            <th>Apellido</th>          
+            <th>Registro Inicial</th>
+            <th>Nº de registros</th>
+            <th>Histórico</th>
+        </tr>
+        {% for row in data %}
+        <tr>
+            <td>{{row['time']}}</td>
+            <td>{{row['name']}}</td>
+            <td>{{row['last_name']}}</td>
+            <td>{{row['last_heartrate']}}</td>
+            <td>{{row['records']}}</td>
+            <td><a href="{{url_for('ventas_historial', name=row['name'])}}">Link</a></td>
+        </tr>
+        {% endfor %}
+    </thead>
+</table>
+
+
+				</div>
+			  </div>
+			</div>
+		  </div>
+	
+		</div>
+	
+		<div class="text-center">
+		  <div class="container">
+	
+	
+			
+					
+	  </section>
+	  <!-- /Section: about -->
+	
+	  <!-- Section: parallax 1 -->
+	  <section id="parallax1" class="home-section parallax text-light" data-stellar-background-ratio="0.5">
+		<div class="container">
+		  <div class="row">
+			<div class="col-md-12">
+			  <div class="text-center">
+				<h2 class="big-heading highlight-dark wow bounceInDown" data-wow-delay="0.2s">PYTHON</h2>
+			  </div>
+			</div>
+		  </div>
+		</div>
+	  </section>
+	
+	 
+		
+
+		
+	  <footer>
+		<div class="container">
+		  <div class="row">
+			<div class="col-md-6 col-md-offset-3">
+	
+			  <div class="text-center">
+				<a href="#intro" class="totop"><i class="pe-7s-angle-up pe-3x"></i></a>
+	
+				<div class="social-widget">
+	
+	
+				  <ul class="team-social">
+					<li class="social-facebook"><a href="https://www.instagram.com/"><i class="fa fa-instagram"></i></a></li>		
+				  </ul>
+	
+				</div>
+				
+				</div>
+			  </div>
+			</div>
+		  </div>
+		</div>
+	  </footer>
+	
+	  <!-- Core JavaScript Files -->
+	  <script src="static/js/jquery.min.js"></script>
+	  <script src="static/js/bootstrap.min.js"></script>
+	  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD8HeI8o-c1NppZA-92oYlXakhDPYR7XMY"></script>
+	  <script src="static/js/jquery.sticky.js"></script>
+	  <script src="static/js/slippry.min.js"></script>
+	  <script src="static/js/jquery.flexslider-min.js"></script>
+	  <script src="static/js/morphext.min.js"></script>
+	  <script src="static/js/gmap.js"></script>
+	  <script src="static/js/jquery.mb.YTPlayer.js"></script>
+	  <script src="static/js/jquery.easing.min.js"></script>
+	  <script src="static/js/jquery.scrollTo.js"></script>
+	  <script src="static/js/jquery.appear.js"></script>
+	  <script src="static/js/stellar.js"></script>
+	  <script src="static/js/wow.min.js"></script>
+	  <script src="static/js/owl.carousel.min.js"></script>
+	  <script src="static/js/nivo-lightbox.min.js"></script>
+	  <script src="static/js/jquery.nicescroll.min.js"></script>
+	  <script src="static/js/custom.js"></script>
+	  <script src="static/contactform/contactform.js"></script>
+	
+	</body>
+	
+	</html>	
