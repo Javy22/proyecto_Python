@@ -1,7 +1,13 @@
 # proyecto_Python
+<<<<<<< HEAD
 imagen
 
 MyData
+=======
+Proyecto_Integrador
+![imagen](proyecto_python/img/MyData.jpg)
+# MyData
+>>>>>>> 3ff7f0a11b59b64f235fb5856c5d0f4de158e6be
 El mismo es un programa que busca orientar y analizar los productos más comercializados en la industria. Tambíen permite realizar reporte por visitador / farmacia.
 
 Pre-requisitos📋
