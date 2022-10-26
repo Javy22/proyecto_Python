@@ -1,6 +1,6 @@
 # proyecto_Python
 Proyecto_Integrador
-![imagen](/img/MyData.jpg)
+![imagen](proyecto_python/img/MyData.jpg)
 # MyData
 El mismo es un programa que busca orientar y analizar los productos más comercializados en la industria. Tambíen permite realizar reporte por visitador / farmacia.
 
