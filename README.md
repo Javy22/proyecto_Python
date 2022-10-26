@@ -1,6 +1,6 @@
 # proyecto_Python
 
-MyData
+
 =======
 ![imagen](/img/MyData.jpg)
 # MyData
