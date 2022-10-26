@@ -1,5 +1,4 @@
 # proyecto_Python
-Proyecto_Integrador
 imagen
 
 MyData
