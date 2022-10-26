@@ -24,7 +24,7 @@ import matplotlib.image as mpimg
 
 def graficar(x, y):
     ''' 
-        Creamos el gráfico para mostrar en html
+     Gráfico para mostrar en html
     '''
    
     fig = plt.figure()
@@ -36,7 +36,7 @@ def graficar(x, y):
     ax.grid()
     ax.set_ylabel("Unidades")
 
-    # Convertirtimos el grafico en una imagen para enviar por HTTP y mostrar en el HTML
+
     image_html = io.BytesIO()
     FigureCanvas(fig).print_png(image_html)
     plt.close(fig)  
