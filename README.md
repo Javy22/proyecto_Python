@@ -1,7 +1,4 @@
 # proyecto_Python
-
-
-=======
 ![imagen](/img/MyData.jpg)
 # MyData
 
