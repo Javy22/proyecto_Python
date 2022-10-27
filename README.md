@@ -17,6 +17,8 @@ Instalar librería en archivo (registro.py )🔧
 
 import csv
 Comenzando 💻
+![imagen](/img/navegador.jpg)
+
 Para comenzar se desplegará un menú con varias opciones, deberás elegir alguna y en el instante se genera reporte solicitado.
 
 Ingresar nuevo registro
