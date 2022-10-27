@@ -16,7 +16,6 @@ from flask_sqlalchemy import SQLAlchemy
 db = SQLAlchemy()
 
 
-
 class Estadistica (db.Model):
     __tablename__ = "registro_venta"
     id = db.Column(db.Integer, primary_key=True)
@@ -24,16 +23,16 @@ class Estadistica (db.Model):
     name = db.Column(db.String)
     apell = db.Column(db.String)
     value = db.Column(db.Integer)
-    
+
     def __repr__(self):
         return f"Paciente {self.name} apellido {self.apell} ritmo cardíaco {self.value}"
 
 
-def insert(time, name,last_name, numero_venta):
+def insert(time, name, last_name, numero_venta):
     # Crear un nuevo registro de ventas
-    regis_venta = Estadistica(time=time, name=name, apell=last_name, value=numero_venta)
+    regis_venta = Estadistica(time=time, name=name,
+                              apell=last_name, value=numero_venta)
 
-    # Agregar el registro de pulsaciones a la DB
     db.session.add(regis_venta)
     db.session.commit()
 
@@ -41,10 +40,11 @@ def insert(time, name,last_name, numero_venta):
 def report(limit=0, offset=0):
     json_result_list = []
 
-    query = db.session.query(Estadistica).with_entities(Estadistica, db.func.count(Estadistica.name))
+    query = db.session.query(Estadistica).with_entities(
+        Estadistica, db.func.count(Estadistica.name))
 
-    # Agrupo por (laboratorio) 
-  
+    # Agrupo por (laboratorio)
+
     query = query.group_by(Estadistica.name)
 
     # Ordeno por fecha para obtener el ultimo registro
@@ -69,17 +69,17 @@ def report(limit=0, offset=0):
     return json_result_list
 
 
-def chart(name):
+def laboratory(name):
     # En esta funcion quiero mostrar las 100 primeras ventas ordenadas por fecha
-    query = db.session.query(Estadistica).filter(Estadistica.name == name).order_by(Estadistica.time.desc())
+    query = db.session.query(Estadistica).filter(
+        Estadistica.name == name).order_by(Estadistica.time.desc())
     query = query.limit(100)
     query_results = query.all()
 
     if query_results is None or len(query_results) == 0:
-       
-        return [],[]
 
-   
+        return [], []
+
     apell = [x.apell for x in reversed(query_results)]
     numero_venta = [x.value for x in reversed(query_results)]
 
@@ -88,5 +88,3 @@ def chart(name):
 
 if __name__ == "__main__":
     print("Test del modulo ventas.py")
-
-  

@@ -1,9 +1,8 @@
 # proyecto_Python
 
 MyData
-=======
+
 ![imagen](/img/MyData.jpg)
-# MyData
 
 El mismo es un programa que busca orientar y analizar los productos más comercializados en la industria. Tambíen permite realizar reporte por visitador / farmacia.
 
@@ -20,6 +19,9 @@ Instalar librería en archivo (registro.py )🔧
 
 import csv
 Comenzando 💻
+
+![imagen](/img/Navegador.jpg)
+
 Para comenzar se desplegará un menú con varias opciones, deberás elegir alguna y en el instante se genera reporte solicitado.
 
 Ingresar nuevo registro

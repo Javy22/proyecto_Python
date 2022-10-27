@@ -1,400 +1,426 @@
 <!DOCTYPE html>
-	<html lang="en">
-	
-	<head>
-	  <meta charset="utf-8">
-	  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-	  <meta name="description" content="">
-	  <meta name="author" content="">
-	
-	  <title>Python | Proyecto Python</title>
-	
-	  <!-- css -->
-	  <link href="static/css/bootstrap.min.css" rel="stylesheet" type="text/css">
-	  <link href="static/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
-	  <link href="static/css/nivo-lightbox.css" rel="stylesheet" />
-	  <link href="static/css/nivo-lightbox-theme/default/default.css" rel="stylesheet" type="text/css" />
-	  <link href="static/css/owl.carousel.css" rel="stylesheet" media="screen" />
-	  <link href="static/css/owl.theme.css" rel="stylesheet" media="screen" />
-	  <link href="static/css/flexslider.css" rel="stylesheet" />
-	  <link href="static/css/animate.css" rel="stylesheet" />
-	  <link href="static/css/style.css" rel="stylesheet">
-	  <link href="static/color/default.css" rel="stylesheet">
-	
-	</head>
-	
-	<body id="page-top" data-spy="scroll" data-target=".navbar-custom">
-	
-	 
-	
-	  <!-- Section: home video -->
-	  <section id="intro" class="home-video text-light">
-		<div class="home-video-wrapper">
-	
-		  <div class="homevideo-container">
-			<div id="P1" class="bg-player" style="display:block; margin: auto; background: rgba(0,0,0,0.5)" data-property="{videoURL:'https://www.youtube.com/watch?v=EkruPJwD8XQ',containment:'.homevideo-container', quality: 'hd720', showControls: false, autoPlay:true, mute:true, startAt:0, opacity:1}"></div>
-		  </div>
-		  <div class="overlay">
-			<div class="text-center video-caption">
-			  <div class="wow bounceInDown" data-wow-offset="0" data-wow-delay="0.8s">
-				<h1 class="big-heading font-light"><span id="js-rotating">Python, Proyecto Final, Programador</span></h1>
-			  </div>
-			  <div class="wow bounceInUp" data-wow-offset="0" data-wow-delay="1s">
-				<div class="margintop-30">
-				  <a href="#about" class="btn btn-skin" id="btn-scroll">Click</a>
-				</div>
-			  </div>
-			</div>
-		  </div>
-		</div>
-       
-	  </section>
-	  <!-- /Section: intro -->
-	
-	
-	  <!-- Navigation -->
-	  <div id="navigation">
-		<nav class="navbar navbar-custom" role="navigation">
-		  <div class="container">
-			<div class="row">
-			  <div class="col-md-2 mob-logo">
-				<div class="row">
-				  <div class="site-logo">
-					<a href="index.html"><img src="static/img/logo-dark.png" alt="" /></a>
-				  </div>
-				</div>
-			  </div>
-	
-	
-			  <div class="col-md-10 mob-menu">
-				<div class="row">
-				  <!-- Brand and toggle get grouped for better mobile display -->
-				  <div class="navbar-header">
-					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#menu">
-													<i class="fa fa-bars"></i>
-													</button>
-				  </div>
-				  <!-- Collect the nav links, forms, and other content for toggling -->
-				  <div class="collapse navbar-collapse" id="menu">
-					<ul class="nav navbar-nav navbar-right">
-					  <li class="active"><a href="#intro">Inicio</a></li>
-					  <li><a href="#about">Explicación</a></li>
-					  <li><a href="#service">service</a></li>
-					  <li><a href="{{url_for('registro')}}">Registro</a></li>
-					  <li><a href="{{url_for('venta')}}">Tabla de Datos</a></li>
-					  <li><a href="#contact">Contact</a></li>
-					  
-					</ul>
-				  </div>
-				  <!-- /.Navbar-collapse -->
-				</div>
-			  </div>
-			</div>
-		  </div>
-		  <!-- /.container -->
-		</nav>
-	  </div>
-	  <!-- /Navigation -->
-	
-	  <!-- Section: about -->
-	  <section id="about" class="home-section color-dark bg-white">
-		<div class="container marginbot-50">
-		  <div class="row">
-			<div class="col-lg-8 col-lg-offset-2">
-			  <div class="wow flipInY" data-wow-offset="0" data-wow-delay="0.4s">
-				<div class="section-heading text-center">
-				  <h2 class="h-bold">Explicación</h2>
-				  <div class="divider-header"></div>
-				  <p>El mismo es un programa que busca orientar y analizar los productos más comercializados en la industria.
-					Tambíen permite realizar reporte por visitador / farmacia..</p>
-				</div>
-			  </div>
-			</div>
-		  </div>
-	
-		</div>
-	
-		<div class="text-center">
-		  <div class="container">
-	
-	
-			
-					
-	  </section>
-	  <!-- /Section: about -->
-	
-	  <!-- Section: parallax 1 -->
-	  <section id="parallax1" class="home-section parallax text-light" data-stellar-background-ratio="0.5">
-		<div class="container">
-		  <div class="row">
-			<div class="col-md-12">
-			  <div class="text-center">
-				<h2 class="big-heading highlight-dark wow bounceInDown" data-wow-delay="0.2s">PYTHON</h2>
-			  </div>
-			</div>
-		  </div>
-		</div>
-	  </section>
-	
-	  <!-- Section: services -->
-	  <section id="service" class="home-section color-dark bg-white">
-		<div class="container marginbot-50">
-		  <div class="row">
-			<div class="col-lg-8 col-lg-offset-2">
-			  <div class="wow flipInY" data-wow-offset="0" data-wow-delay="0.4s">
-				<div class="section-heading text-center">
-				  <h2 class="h-bold">Tabla Registros Vendedores</h2>
-				  <div class="divider-header"></div>
-				  <p>Aquí encontrará el detalle de los vendeores.</p>
-				  
-				</div>
-			  </div>
-			</div>
-		  </div>
-	
-		</div>
-	
-		
+<html lang="en">
 
-		
-	  </section>
-	  <!-- /Section: services -->
-	
-	  <!-- Section: parallax 2 -->
-	  <section id="parallax2" class="home-section parallax text-light" data-stellar-background-ratio="0.5">
-		<div class="container">
-		  <div class="row appear stats">
-			<div class="col-md-3">
-			  <div class="align-center color-white txt-shadow">
-				<div class="icon">
-				  <i class="pe-7s-stopwatch pe-5x"></i>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="">
+	<meta name="author" content="">
+
+	<title>Python | Proyecto Python</title>
+
+	<!-- css -->
+	<link href="static/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+	<link href="static/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+	<link href="static/css/nivo-lightbox.css" rel="stylesheet" />
+	<link href="static/css/nivo-lightbox-theme/default/default.css" rel="stylesheet" type="text/css" />
+	<link href="static/css/owl.carousel.css" rel="stylesheet" media="screen" />
+	<link href="static/css/owl.theme.css" rel="stylesheet" media="screen" />
+	<link href="static/css/flexslider.css" rel="stylesheet" />
+	<link href="static/css/animate.css" rel="stylesheet" />
+	<link href="static/css/style.css" rel="stylesheet">
+	<link href="static/color/default.css" rel="stylesheet">
+
+</head>
+
+<body id="page-top" data-spy="scroll" data-target=".navbar-custom">
+
+
+
+	<!-- Sección: inicio video -->
+	<section id="intro" class="home-video text-light">
+		<div class="home-video-wrapper">
+
+			<div class="homevideo-container">
+				<div id="P1" class="bg-player" style="display:block; margin: auto; background: rgba(0,0,0,0.5)"
+					data-property="{videoURL:'https://www.youtube.com/watch?v=EkruPJwD8XQ',containment:'.homevideo-container', quality: 'hd720', showControls: false, autoPlay:true, mute:true, startAt:0, opacity:1}">
 				</div>
-				<strong id="counter-coffee" class="number">1142</strong><br />
-				<span class="text">Minutes</span>
-			  </div>
 			</div>
-			<div class="col-md-3">
-			  <div class="align-center color-white txt-shadow">
-				<div class="icon">
-				  <i class="pe-7s-music pe-5x"></i>
+			<div class="overlay">
+				<div class="text-center video-caption">
+					<div class="wow bounceInDown" data-wow-offset="0" data-wow-delay="0.8s">
+						<h1 class="big-heading font-light"><span id="js-rotating">Python, Proyecto Final,
+								Programador</span></h1>
+					</div>
+					<div class="wow bounceInUp" data-wow-offset="0" data-wow-delay="1s">
+						<div class="margintop-30">
+							<a href="#about" class="btn btn-skin" id="btn-scroll">Click</a>
+						</div>
+					</div>
 				</div>
-				<strong id="counter-music" class="number">229</strong><br />
-				<span class="text">Tracks</span>
-			  </div>
 			</div>
-			<div class="col-md-3">
-			  <div class="align-center color-white txt-shadow">
-				<div class="icon">
-				  <i class="pe-7s-coffee pe-5x"></i>
-				</div>
-				<strong id="counter-clock" class="number">451</strong><br />
-				<span class="text">Cokes</span>
-			  </div>
-			</div>
-			<div class="col-md-3">
-			  <div class="align-center color-white txt-shadow">
-				<div class="icon">
-				  <i class="pe-7s-cup pe-5x"></i>
-				</div>
-				<strong id="counter-heart" class="number">112</strong><br />
-				<span class="text">Awwards</span>
-			  </div>
-			</div>
-		  </div>
 		</div>
-	  </section>
-	
-	
-	  <!-- Section: works -->
-	  <section id="works" class="home-section color-dark text-center bg-white">
+
+	</section>
+	<!-- /Sección: intro -->
+
+
+	<!-- Navegador -->
+	<div id="navigation">
+		<nav class="navbar navbar-custom" role="navigation">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-2 mob-logo">
+						<div class="row">
+							<div class="site-logo">
+								<a href="index.html"><img src="static/img/logo-dark.png" alt="" /></a>
+							</div>
+						</div>
+					</div>
+
+
+					<div class="col-md-10 mob-menu">
+						<div class="row">
+
+							<div class="navbar-header">
+								<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#menu">
+									<i class="fa fa-bars"></i>
+								</button>
+							</div>
+
+							<div class="collapse navbar-collapse" id="menu">
+								<ul class="nav navbar-nav navbar-right">
+									<li class="active"><a href="#intro">Inicio</a></li>
+									<li><a href="#about">Explicación</a></li>
+									<li><a href="#service">Ventajas</a></li>
+									<li><a href="{{url_for('registro')}}">Registro</a></li>
+									<li><a href="{{url_for('venta')}}">Tabla de Datos</a></li>
+									<li><a href="#contact">Contacto</a></li>
+
+								</ul>
+							</div>
+							<!-- /.Navbar-collapse -->
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- /.contenedor -->
+		</nav>
+	</div>
+	<!-- /Navegador -->
+
+	<!-- Secciónn: Explicación -->
+	<section id="about" class="home-section color-dark bg-white">
 		<div class="container marginbot-50">
-		  <div class="row">
-			<div class="col-lg-8 col-lg-offset-2">
-			  <div class="wow flipInY" data-wow-offset="0" data-wow-delay="0.4s">
-				<div class="section-heading text-center">
-				  <h2 class="h-bold">Registro de Ventas</h2>
-				  <div class="divider-header"></div>
-				  <p>Usted puede ingresar una nueva venta realizando un click en el botón Registro.</p>
-				  <form action="{{url_for('venta')}}">
-					<input type="submit" value="venta"/>
-				</form>
-			
-				<form action="{{url_for('registro')}}">
-					<input type="submit" value="Registro"/>
-				</form>
-			
-		
-				
+			<div class="row">
+				<div class="col-lg-8 col-lg-offset-2">
+					<div class="wow flipInY" data-wow-offset="0" data-wow-delay="0.4s">
+						<div class="section-heading text-center">
+							<h2 class="h-bold">Explicación</h2>
+							<div class="divider-header"></div>
+							<p>
+								En este programa buscamos orientar y analizar los productos más comercializados
+								en la industria.
+								Para ello debemos ingresar el nombre del laboratorio y el apellido del vendedor,
+								con el campo ventas obtendremos en forma gráfica el resultado final por fecha..</p>
+						</div>
+					</div>
 				</div>
-			  </div>
 			</div>
-		  </div>
-	
+
 		</div>
-	
+
+		<div class="text-center">
+			<div class="container">
+
+
+
+
+	</section>
+	<!-- /Sección explicación -->
+
+	<!-- Section: parallax 1 -->
+	<section id="parallax1" class="home-section parallax text-light" data-stellar-background-ratio="0.5">
 		<div class="container">
-		  <div class="row">
-			<div class="col-sm-12 col-md-12 col-lg-12">
-			  <div class="wow bounceInUp" data-wow-delay="0.4s">
-				<div id="owl-works" class="owl-carousel">
-				  <div class="item"><a href="static/img/works/1.jpg" title="This is an image title" data-lightbox-gallery="gallery1" data-lightbox-hidpi="static/img/works/1@2x.jpg"><img src="static/img/works/1.jpg" class="img-responsive" alt="img"></a></div>
-				  <div class="item"><a href="static/img/works/2.jpg" title="This is an image title" data-lightbox-gallery="gallery1" data-lightbox-hidpi="static/img/works/2@2x.jpg"><img src="static/img/works/2.jpg" class="img-responsive " alt="img"></a></div>
-				  <div class="item"><a href="static/img/works/3.jpg" title="This is an image title" data-lightbox-gallery="gallery1" data-lightbox-hidpi="static/img/works/3@2x.jpg"><img src="static/img/works/3.jpg" class="img-responsive " alt="img"></a></div>
-				  <div class="item"><a href="static/img/works/4.jpg" title="This is an image title" data-lightbox-gallery="gallery1" data-lightbox-hidpi="static/img/works/4@2x.jpg"><img src="static/img/works/4.jpg" class="img-responsive " alt="img"></a></div>
-				  <div class="item"><a href="static/img/works/5.jpg" title="This is an image title" data-lightbox-gallery="gallery1" data-lightbox-hidpi="static/img/works/5@2x.jpg"><img src="static/img/works/5.jpg" class="img-responsive " alt="img"></a></div>
-				  <div class="item"><a href="static/img/works/6.jpg" title="This is an image title" data-lightbox-gallery="gallery1" data-lightbox-hidpi="static/img/works/6@2x.jpg"><img src="static/img/works/6.jpg" class="img-responsive " alt="img"></a></div>
-				  <div class="item"><a href="static/img/works/7.jpg" title="This is an image title" data-lightbox-gallery="gallery1" data-lightbox-hidpi="static/img/works/7@2x.jpg"><img src="static/img/works/7.jpg" class="img-responsive " alt="img"></a></div>
-				  <div class="item"><a href="static/img/works/8.jpg" title="This is an image title" data-lightbox-gallery="gallery1" data-lightbox-hidpi="static/img/works/8@2x.jpg"><img src="static/img/works/8.jpg" class="img-responsive " alt="img"></a></div>
+			<div class="row">
+				<div class="col-md-12">
+					<div class="text-center">
+						<h2 class="big-heading highlight-dark wow bounceInDown" data-wow-delay="0.2s">PYTHON</h2>
+					</div>
 				</div>
-			  </div>
 			</div>
-		  </div>
 		</div>
-	
-	  </section>
-	  <!-- /Section: works -->
-	
-	  <!-- Section: parallax 3 -->
-	  <section id="parallax3" class="home-section parallax text-light text-center" data-stellar-background-ratio="0.5">
-		<div class="container">
-		  <div class="row">
-			<div class="col-md-12">
-			  <div class="testimonialslide clearfix flexslider">
-				<ul class="slides">
-				  <li>
-					<blockquote>
-					  Proyecto Python para poder ver estadisticas de ventas 
-					</blockquote>
-					<h4> <span>&#8213; Salinas Javier</span></h4>
-				  </li>
-				  <li>
-					<blockquote>
-						Utilizamos Flask para crear un WebServer que levanta los datos de
-						las personas registradas con sus respectivas ventas y Laboratorio
-					</blockquote>
-					<h4>Python <span>&#8213;  </span></h4>
-				  </li>
-				</ul>
-			  </div>
-			</div>
-		  </div>
-		</div>
-	  </section>
-	
-	
-	  <!-- Section: contact -->
-	  <section id="contact" class="home-section nopadd-bot color-dark bg-white text-center">
+	</section>
+
+	<!-- Seccion: services -->
+	<section id="service" class="home-section color-dark bg-white">
 		<div class="container marginbot-50">
-		  <div class="row">
-			<div class="col-lg-8 col-lg-offset-2">
-			  <div class="wow flipInY" data-wow-offset="0" data-wow-delay="0.4s">
-				<div class="section-heading text-center">
-				  <h2 class="h-bold">Contacto</h2>
-				  <div class="divider-header"></div>
-				  <p>Por cualquier duda, envianos un mensaje.</p>
+			<div class="row">
+				<div class="col-lg-8 col-lg-offset-2">
+					<div class="wow flipInY" data-wow-offset="0" data-wow-delay="0.4s">
+						<div class="section-heading text-center">
+							<h2 class="h-bold">Ventajas de una aplicación Web</h2>
+							<div class="divider-header"></div>
+							<p> 
+								● No necesita ningún tipo de instalación, ya que se accede a través de un navegador.
+								● Es multiplataforma y multidispositivo.
+								● La potencia de la aplicación no depende enteramente de la potencia del
+								dispositivo, sino que en gran parte del servidor en donde se aloja la aplicación
+								pudiendo controlar en escala los servicios que podemos brindarles a los usuarios
+								sin importar exclusivamente de su dispositivo.
+								● Muy adaptable, visualmente intuitiva y muy fácil de actualizar si fuera necesario.</p>
+
+						</div>
+					</div>
 				</div>
-			  </div>
 			</div>
-		  </div>
-	
+
 		</div>
-	
+
+
+
+
+	</section>
+	<!-- /Section: services -->
+
+	<!-- Section: parallax 2 -->
+	<section id="parallax2" class="home-section parallax text-light" data-stellar-background-ratio="0.5">
 		<div class="container">
-	
-		  <div class="row marginbot-80">
-			<div class="col-md-8 col-md-offset-2">
-			  <div id="sendmessage">Tu mensaje ha sido enviado. Gracias!</div>
-			  <div id="errormessage"></div>
-			  <form action="" method="post" role="form" class="contactForm">
-				<div class="form-group">
-				  <input type="text" name="name" class="form-control" id="name" placeholder="Nombre" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
-				  <div class="validation"></div>
+			<div class="row appear stats">
+				<div class="col-md-3">
+					<div class="align-center color-white txt-shadow">
+						<div class="icon">
+							<i class="pe-7s-stopwatch pe-5x"></i>
+						</div>
+						<strong id="counter-coffee" class="number">1142</strong><br />
+						<span class="text">Minutes</span>
+					</div>
 				</div>
-				<div class="form-group">
-				  <input type="email" class="form-control" name="email" id="email" placeholder="Email" data-rule="email" data-msg="Please enter a valid email" />
-				  <div class="validation"></div>
+				<div class="col-md-3">
+					<div class="align-center color-white txt-shadow">
+						<div class="icon">
+							<i class="pe-7s-music pe-5x"></i>
+						</div>
+						<strong id="counter-music" class="number">229</strong><br />
+						<span class="text">Tracks</span>
+					</div>
 				</div>
-				<div class="form-group">
-				  <input type="text" class="form-control" name="subject" id="subject" placeholder="Asunto" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
-				  <div class="validation"></div>
+				<div class="col-md-3">
+					<div class="align-center color-white txt-shadow">
+						<div class="icon">
+							<i class="pe-7s-coffee pe-5x"></i>
+						</div>
+						<strong id="counter-clock" class="number">451</strong><br />
+						<span class="text">Cokes</span>
+					</div>
 				</div>
-				<div class="form-group">
-				  <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Aquí tu mensaje" placeholder="Mensaje"></textarea>
-				  <div class="validation"></div>
+				<div class="col-md-3">
+					<div class="align-center color-white txt-shadow">
+						<div class="icon">
+							<i class="pe-7s-cup pe-5x"></i>
+						</div>
+						<strong id="counter-heart" class="number">112</strong><br />
+						<span class="text">Awwards</span>
+					</div>
 				</div>
-	
-				<div class="text-center"><button type="submit" class="btn btn-skin btn-lg btn-block">Enviar</button></div>
-			  </form>
 			</div>
-		  </div>
-	
-	
 		</div>
-	  </section>
-	  <!-- /Section: contact -->
-	
-	  <!-- google map -->
-	  <div id="map-btn1-div">
-		<a id="map-btn1" class="gmap-btn close-map-button btn-show" href="#map">
-			Click aquí para abrir el mapa
-			</a>
-	  </div>
-	  <a id="map-btn2" class="btn btn-skin btn-lg btn-noradius gmap-btn close-map-button btn-hide" href="#map" title="Close google map" data-toggle="tooltip" data-placement="top">
-		Ramón Falcón 6835, 2B, CP 1408
-		</a>
-	
-	  <!-- google map -->
-	  <section id="map" class="close-map">
-		<div id="google-map"></div>
-	  </section>
-	  <!-- /google map -->
-	
-	
-	  <footer>
+	</section>
+
+
+	<!-- Section: works -->
+	<section id="works" class="home-section color-dark text-center bg-white">
+		<div class="container marginbot-50">
+			<div class="row">
+				<div class="col-lg-8 col-lg-offset-2">
+					<div class="wow flipInY" data-wow-offset="0" data-wow-delay="0.4s">
+						<div class="section-heading text-center">
+							<h2 class="h-bold">Registro de Ventas</h2>
+							<div class="divider-header"></div>
+							<p>La ventana de la programación orientada a objetos es poder encapsular las funciones y
+								las variables que estén relacionadas en un esquema controlado y aislado del resto del
+								sistema.
+								Este objeto que permite encapsular los datos y las funciones se lo llama “Clase”. En los
+								objetos o las clases a las funciones que pertenece a ella se las llaman “métodos”, y a los
+								datos o variables de las clases se las llaman propiedades o atributos</p>
+							
+
+
+
+						</div>
+					</div>
+				</div>
+			</div>
+
+		</div>
+
 		<div class="container">
-		  <div class="row">
-			<div class="col-md-6 col-md-offset-3">
-	
-			  <div class="text-center">
-				<a href="#intro" class="totop"><i class="pe-7s-angle-up pe-3x"></i></a>
-	
-				<div class="social-widget">
-	
-	
-				  <ul class="team-social">
-					<li class="social-facebook"><a href="https://www.instagram.com/"><i class="fa fa-instagram"></i></a></li>		
-				  </ul>
-	
+			<div class="row">
+				<div class="col-sm-12 col-md-12 col-lg-12">
+					<div class="wow bounceInUp" data-wow-delay="0.4s">
+						<div id="owl-works" class="owl-carousel">
+							<div class="item"><a href="static/img/works/1.jpg" title="This is an image title"
+									data-lightbox-gallery="gallery1"
+									data-lightbox-hidpi="static/img/works/1@2x.jpg"><img src="static/img/works/1.jpg"
+										class="img-responsive" alt="img"></a></div>
+							<div class="item"><a href="static/img/works/2.jpg" title="This is an image title"
+									data-lightbox-gallery="gallery1"
+									data-lightbox-hidpi="static/img/works/2@2x.jpg"><img src="static/img/works/2.jpg"
+										class="img-responsive " alt="img"></a></div>
+							<div class="item"><a href="static/img/works/3.jpg" title="This is an image title"
+									data-lightbox-gallery="gallery1"
+									data-lightbox-hidpi="static/img/works/3@2x.jpg"><img src="static/img/works/3.jpg"
+										class="img-responsive " alt="img"></a></div>
+							<div class="item"><a href="static/img/works/4.jpg" title="This is an image title"
+									data-lightbox-gallery="gallery1"
+									data-lightbox-hidpi="static/img/works/4@2x.jpg"><img src="static/img/works/4.jpg"
+										class="img-responsive " alt="img"></a></div>
+							<div class="item"><a href="static/img/works/5.jpg" title="This is an image title"
+									data-lightbox-gallery="gallery1"
+									data-lightbox-hidpi="static/img/works/5@2x.jpg"><img src="static/img/works/5.jpg"
+										class="img-responsive " alt="img"></a></div>
+							<div class="item"><a href="static/img/works/6.jpg" title="This is an image title"
+									data-lightbox-gallery="gallery1"
+									data-lightbox-hidpi="static/img/works/6@2x.jpg"><img src="static/img/works/6.jpg"
+										class="img-responsive " alt="img"></a></div>
+							<div class="item"><a href="static/img/works/7.jpg" title="This is an image title"
+									data-lightbox-gallery="gallery1"
+									data-lightbox-hidpi="static/img/works/7@2x.jpg"><img src="static/img/works/7.jpg"
+										class="img-responsive " alt="img"></a></div>
+							<div class="item"><a href="static/img/works/8.jpg" title="This is an image title"
+									data-lightbox-gallery="gallery1"
+									data-lightbox-hidpi="static/img/works/8@2x.jpg"><img src="static/img/works/8.jpg"
+										class="img-responsive " alt="img"></a></div>
+						</div>
+					</div>
 				</div>
-				
-				</div>
-			  </div>
 			</div>
-		  </div>
 		</div>
-	  </footer>
-	
-	  <!-- Core JavaScript Files -->
-	  <script src="static/js/jquery.min.js"></script>
-	  <script src="static/js/bootstrap.min.js"></script>
-	  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD8HeI8o-c1NppZA-92oYlXakhDPYR7XMY"></script>
-	  <script src="static/js/jquery.sticky.js"></script>
-	  <script src="static/js/slippry.min.js"></script>
-	  <script src="static/js/jquery.flexslider-min.js"></script>
-	  <script src="static/js/morphext.min.js"></script>
-	  <script src="static/js/gmap.js"></script>
-	  <script src="static/js/jquery.mb.YTPlayer.js"></script>
-	  <script src="static/js/jquery.easing.min.js"></script>
-	  <script src="static/js/jquery.scrollTo.js"></script>
-	  <script src="static/js/jquery.appear.js"></script>
-	  <script src="static/js/stellar.js"></script>
-	  <script src="static/js/wow.min.js"></script>
-	  <script src="static/js/owl.carousel.min.js"></script>
-	  <script src="static/js/nivo-lightbox.min.js"></script>
-	  <script src="static/js/jquery.nicescroll.min.js"></script>
-	  <script src="static/js/custom.js"></script>
-	  <script src="static/contactform/contactform.js"></script>
-	
-	</body>
-	
-	</html>	
+
+	</section>
+	<!-- /Section: works -->
+
+	<!-- Section: parallax 3 -->
+	<section id="parallax3" class="home-section parallax text-light text-center" data-stellar-background-ratio="0.5">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<div class="testimonialslide clearfix flexslider">
+						<ul class="slides">
+							<li>
+								<blockquote>
+									Proyecto Python para poder ver estadisticas de ventas
+								</blockquote>
+								<h4> <span>&#8213; Salinas Javier</span></h4>
+							</li>
+							<li>
+								<blockquote>
+									Utilizamos Flask para crear un WebServer que levanta los datos de
+									las personas registradas con sus respectivas ventas y Laboratorio
+								</blockquote>
+								<h4>Python <span>&#8213; </span></h4>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+	<!-- Section: contact -->
+	<section id="contact" class="home-section nopadd-bot color-dark bg-white text-center">
+		<div class="container marginbot-50">
+			<div class="row">
+				<div class="col-lg-8 col-lg-offset-2">
+					<div class="wow flipInY" data-wow-offset="0" data-wow-delay="0.4s">
+						<div class="section-heading text-center">
+							<h2 class="h-bold">Contacto</h2>
+							<div class="divider-header"></div>
+							<p>Por cualquier duda, envianos un mensaje.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+
+		</div>
+
+		<div class="container">
+
+			<div class="row marginbot-80">
+				<div class="col-md-8 col-md-offset-2">
+					<div id="sendmessage">Tu mensaje ha sido enviado. Gracias!</div>
+					<div id="errormessage"></div>
+					<form action="" method="post" role="form" class="contactForm">
+						<div class="form-group">
+							<input type="text" name="name" class="form-control" id="name" placeholder="Nombre"
+								data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+							<div class="validation"></div>
+						</div>
+						<div class="form-group">
+							<input type="email" class="form-control" name="email" id="email" placeholder="Email"
+								data-rule="email" data-msg="Please enter a valid email" />
+							<div class="validation"></div>
+						</div>
+						<div class="form-group">
+							<input type="text" class="form-control" name="subject" id="subject" placeholder="Asunto"
+								data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+							<div class="validation"></div>
+						</div>
+						<div class="form-group">
+							<textarea class="form-control" name="message" rows="5" data-rule="required"
+								data-msg="Aquí tu mensaje" placeholder="Mensaje"></textarea>
+							<div class="validation"></div>
+						</div>
+
+						<div class="text-center"><button type="submit"
+								class="btn btn-skin btn-lg btn-block">Enviar</button></div>
+					</form>
+				</div>
+			</div>
+
+
+		</div>
+	</section>
+	<!-- /Section: contact -->
+
+
+	<footer>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6 col-md-offset-3">
+
+					<div class="text-center">
+						<a href="#intro" class="totop"><i class="pe-7s-angle-up pe-3x"></i></a>
+
+						<div class="social-widget">
+
+
+							<ul class="team-social">
+								<li class="social-facebook"><a href="https://www.instagram.com/"><i
+											class="fa fa-instagram"></i></a></li>
+							</ul>
+
+						</div>
+
+					</div>
+				</div>
+			</div>
+		</div>
+		</div>
+	</footer>
+
+	<!-- Core JavaScript Files -->
+	<script src="static/js/jquery.min.js"></script>
+	<script src="static/js/bootstrap.min.js"></script>
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD8HeI8o-c1NppZA-92oYlXakhDPYR7XMY"></script>
+	<script src="static/js/jquery.sticky.js"></script>
+	<script src="static/js/slippry.min.js"></script>
+	<script src="static/js/jquery.flexslider-min.js"></script>
+	<script src="static/js/morphext.min.js"></script>
+	<script src="static/js/gmap.js"></script>
+	<script src="static/js/jquery.mb.YTPlayer.js"></script>
+	<script src="static/js/jquery.easing.min.js"></script>
+	<script src="static/js/jquery.scrollTo.js"></script>
+	<script src="static/js/jquery.appear.js"></script>
+	<script src="static/js/stellar.js"></script>
+	<script src="static/js/wow.min.js"></script>
+	<script src="static/js/owl.carousel.min.js"></script>
+	<script src="static/js/nivo-lightbox.min.js"></script>
+	<script src="static/js/jquery.nicescroll.min.js"></script>
+	<script src="static/js/custom.js"></script>
+	<script src="static/contactform/contactform.js"></script>
+
+</body>
+
+</html>
