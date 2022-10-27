@@ -4,10 +4,13 @@ MyData
 
 ![imagen](/img/MyData.jpg)
 
+__Ejemplos que el profesor mostrará en clase__\
+ejemplos_clase/
+
 El mismo es un programa que busca orientar y analizar los productos más comercializados en la industria. Tambíen permite realizar reporte por visitador / farmacia.
 
-Pre-requisitos📋
-Instalar las siguientes librerías dentro (reporte.py) en Visual Studio Code 🔧
+__Pre-requisitos📋__\
+Instalar las siguientes librerías dentro (reporte.py) en Visual Studio Code 🔧/
 
 import csv /
 from pickle import TRUE
