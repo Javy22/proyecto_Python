@@ -11,7 +11,7 @@ __Pre-requisitos📋__\
 Solo necesitamos abrir el navegador y colocar la siguiente ruta : http://127.0.0.1:5000/
 En Visual Studio Code podemos ver las librerias instaladas para poder correr el programa.
 
-__Comenzando 💻__\
+__Comenzando 💻__
 
 ![imagen](/img/Navegador.jpg)
 
@@ -32,7 +32,7 @@ que se encuentra en la tabla.
 __Visual Studio Code__\
 __Github__\
 __Versionado📌__\
-__Versión 1.0__\
+__Versión 1.0
 
 Autores ✒
 Proyecto realizado por : ● Salinas Javier DNI : 27794377
