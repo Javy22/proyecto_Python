@@ -8,7 +8,7 @@ MyData
 El mismo es un programa que busca orientar y analizar los productos más comercializados en la industria. Tambíen permite realizar reporte por visitador / farmacia.
 
 __Pre-requisitos📋__\
-Solo necesitamos abrir el navegador y colocar la siguiente ruta : http://127.0.0.1:5000/
+Solo necesitamos abrir el navegador y colocar la siguiente ruta : http://127.0.0.1:5000/ \
 En Visual Studio Code podemos ver las librerias instaladas para poder correr el programa.
 
 __Comenzando 💻__
