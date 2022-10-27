@@ -20,7 +20,7 @@ y la cantida de unidades vendidas.
 
 ![imagen](/img/Registro.jpg)
 
-Ejecucón del programa🛠️
+__Ejecucón del programa🛠️__
 
 Lo que podremos obtener es la cantidad de ventas por visitador por Laboratorio, para ello tienen que realizar click en el link 
 que se encuentra en la tabla.
