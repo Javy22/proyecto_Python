@@ -10,14 +10,14 @@ ejemplos_clase/
 El mismo es un programa que busca orientar y analizar los productos más comercializados en la industria. Tambíen permite realizar reporte por visitador / farmacia.
 
 __Pre-requisitos📋__\
-Instalar las siguientes librerías dentro (reporte.py) en Visual Studio Code 🔧/
+Instalar las siguientes librerías dentro (reporte.py) en Visual Studio Code
 
-import csv /
-from pickle import TRUE
-from this import d
-import registro
-import random
-Ítem 1
+import csv/ 
+from pickle import TRUE/
+from this import d/
+import registro/
+import random/
+Ítem 1/
 Instalar librería en archivo (registro.py )🔧
 
 import csv
