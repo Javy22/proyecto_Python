@@ -4,8 +4,6 @@ MyData
 
 ![imagen](/img/MyData.jpg)
 
-__Ejemplos que el profesor mostrará en clase__\
-ejemplos_clase/
 
 El mismo es un programa que busca orientar y analizar los productos más comercializados en la industria. Tambíen permite realizar reporte por visitador / farmacia.
 
@@ -15,13 +13,13 @@ Instalar las siguientes librerías dentro (reporte.py) en Visual Studio Code
 import csv\
 from pickle import TRUE\
 from this import d\
-import registro__\
-import random__\
-Ítem 1__\
-Instalar librería en archivo (registro.py )🔧__\
+import registro\
+import random\
+Ítem 1\
+Instalar librería en archivo (registro.py )🔧\
 
 import csv
-Comenzando 💻
+__Comenzando 💻__\
 
 ![imagen](/img/Navegador.jpg)
 
@@ -43,15 +41,15 @@ visitador {'nombre': 'Felipe Salinas', 'cantidad': 0}
 Despliegue🔎
 Herramientas utilizadas para el desarrollo
 
-Visual Studio Code
-Github
-Versionado📌
-Versión 1.0
+__Visual Studio Code__\
+__Github__\
+__Versionado📌__\
+__Versión 1.0__\
 
-Autores ✒
-Proyecto realizado por : ● Salinas Javier DNI : 27794377
+Autores ✒\
+Proyecto realizado por : ● Salinas Javier DNI : 27794377\
 
-Licencia📄
-Este proyecto está bajo la Licencia (27.794.377)
+Licencia📄\
+Este proyecto está bajo la Licencia (27.794.377)\
 
-Ver el archivo LICENSE.md para detalles
+Ver el archivo LICENSE.md para detalles\
