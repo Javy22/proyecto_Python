@@ -22,13 +22,13 @@ Comenzando 💻
 
 ![imagen](/img/Navegador.jpg)
 
-Para comenzar se desplegará un menú con varias opciones, deberás elegir alguna y en el instante se genera reporte solicitado.
+Para comenzar se desplegará un menú con varias opciones, deberás elegir alguna y en el instante se genera reporte solicitado./
 
-Ingresar nuevo registro
-Eliminar un registro
-Consulta de ventas por Laboratorio
-Consultar registro venta por visitador
-Consulta general de los registros
+Ingresar nuevo registro/
+Eliminar un registro/
+Consulta de ventas por Laboratorio/
+Consultar registro venta por visitador/
+Consulta general de los registros/
 Ejecucón del programa🛠️
 Al seleccionar alguna de las opciones anteriores podrá ver el siguiente reporte :
 
