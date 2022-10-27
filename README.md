@@ -9,7 +9,7 @@ El mismo es un programa que busca orientar y analizar los productos más comerci
 Pre-requisitos📋
 Instalar las siguientes librerías dentro (reporte.py) en Visual Studio Code 🔧
 
-import csv
+import csv /
 from pickle import TRUE
 from this import d
 import registro
