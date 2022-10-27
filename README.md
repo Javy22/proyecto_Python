@@ -8,38 +8,26 @@ MyData
 El mismo es un programa que busca orientar y analizar los productos más comercializados en la industria. Tambíen permite realizar reporte por visitador / farmacia.
 
 __Pre-requisitos📋__\
-Instalar las siguientes librerías dentro (reporte.py) en Visual Studio Code
+Solo necesitamos abrir el navegador y colocar la siguiente ruta : http://127.0.0.1:5000/
+En Visual Studio Code podemos ver las librerias instaladas para poder correr el programa.
 
-import csv\
-from pickle import TRUE\
-from this import d\
-import registro\
-import random\
-Ítem 1\
-Instalar librería en archivo (registro.py )🔧\
-
-import csv
 __Comenzando 💻__\
 
 ![imagen](/img/Navegador.jpg)
 
-Para comenzar se desplegará un menú con varias opciones, deberás elegir alguna y en el instante se genera reporte solicitado./
+En el navegador vamos a poder realizar un vistazo de lo aprendido, en la solapa Registro puede ingresar el nombre del laboratorio, el nombre de la persona
+y la cantida de unidades vendidas.
 
-Ingresar nuevo registro/
-Eliminar un registro/
-Consulta de ventas por Laboratorio/
-Consultar registro venta por visitador/
-Consulta general de los registros/
+![imagen](/img/Registro.jpg)
+
 Ejecucón del programa🛠️
-Al seleccionar alguna de las opciones anteriores podrá ver el siguiente reporte :
 
-Elegiste la opción: 4
+Lo que podremos obtener es la cantidad de ventas por visitador por Laboratorio, para ello tienen que realizar click en el link 
+que se encuentra en la tabla.
 
-Visitador: {'nombre': 'Javier Salinas', 'cantidad': 4}
-visitador {'nombre': 'Felipe Salinas', 'cantidad': 0}
-¡Reporte de ventas por Visitador terminado!
-Despliegue🔎
-Herramientas utilizadas para el desarrollo
+![imagen](/img/Tabla.jpg)
+
+
 
 __Visual Studio Code__\
 __Github__\
