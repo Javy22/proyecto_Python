@@ -35,7 +35,7 @@ que se encuentra en la tabla.
 
 __Gráficos 💻__
 
-Realizando click el link, vamos a llegar al gráfico con los valores por laboratorio por vendedor.
+Realizando click en el link, vamos a llegar al gráfico con los valores por laboratorio por vendedor.
 
 __Visual Studio Code__\
 __Github__\
