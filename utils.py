@@ -19,7 +19,6 @@ import io
 import base64
 
 import matplotlib
-# matplotlib.use('Agg')
 
 
 def graficar(x, y):

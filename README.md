@@ -18,7 +18,7 @@ import random
 Instalar librería en archivo (registro.py )🔧
 
 import csv
-Comenzando 💻
+**Comenzando 💻**\
 
 ![imagen](/img/Navegador.jpg)
 
@@ -52,3 +52,6 @@ Licencia📄
 Este proyecto está bajo la Licencia (27.794.377)
 
 Ver el archivo LICENSE.md para detalles
+
+**Ejemplos que el profesor mostrará en clase**\
+ejemplos_clase/
