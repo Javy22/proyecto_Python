@@ -4,11 +4,14 @@ MyData
 
 ![imagen](/img/MyData.jpg)
 
+
 El mismo es un programa que busca orientar y analizar los productos más comercializados en la industria. Tambíen permite realizar reporte por visitador / farmacia.
 
-Pre-requisitos📋
-Instalar las siguientes librerías dentro (reporte.py) en Visual Studio Code 🔧
+__Pre-requisitos📋__\
+Solo necesitamos abrir el navegador y colocar la siguiente ruta : http://127.0.0.1:5000/ \
+En Visual Studio Code podemos ver las librerias instaladas para poder correr el programa.
 
+<<<<<<< HEAD
 import csv
 from pickle import TRUE
 from this import d
@@ -19,31 +22,30 @@ Instalar librería en archivo (registro.py )🔧
 
 import csv
 **Comenzando 💻**\
+=======
+__Comenzando 💻__
+>>>>>>> 76bf6296f50c6640fd97470922bd4b835f98a51b
 
 ![imagen](/img/Navegador.jpg)
 
-Para comenzar se desplegará un menú con varias opciones, deberás elegir alguna y en el instante se genera reporte solicitado.
+En el navegador vamos a poder realizar un vistazo de lo aprendido, en la solapa Registro puede ingresar el nombre del laboratorio, el nombre de la persona
+y la cantida de unidades vendidas.
 
-Ingresar nuevo registro
-Eliminar un registro
-Consulta de ventas por Laboratorio
-Consultar registro venta por visitador
-Consulta general de los registros
-Ejecucón del programa🛠️
-Al seleccionar alguna de las opciones anteriores podrá ver el siguiente reporte :
+![imagen](/img/Registro.jpg)
 
-Elegiste la opción: 4
+__Ejecucón del programa🛠️__
 
-Visitador: {'nombre': 'Javier Salinas', 'cantidad': 4}
-visitador {'nombre': 'Felipe Salinas', 'cantidad': 0}
-¡Reporte de ventas por Visitador terminado!
-Despliegue🔎
-Herramientas utilizadas para el desarrollo
+Lo que podremos obtener es la cantidad de ventas por visitador por Laboratorio, para ello tienen que realizar click en el link 
+que se encuentra en la tabla.
 
-Visual Studio Code
-Github
-Versionado📌
-Versión 1.0
+![imagen](/img/Tabla.jpg)
+
+
+
+__Visual Studio Code__\
+__Github__\
+__Versionado📌__\
+__Versión 1.0
 
 Autores ✒
 Proyecto realizado por : ● Salinas Javier DNI : 27794377
@@ -51,7 +53,11 @@ Proyecto realizado por : ● Salinas Javier DNI : 27794377
 Licencia📄
 Este proyecto está bajo la Licencia (27.794.377)
 
+<<<<<<< HEAD
 Ver el archivo LICENSE.md para detalles
 
 **Ejemplos que el profesor mostrará en clase**\
 ejemplos_clase/
+=======
+Ver el archivo LICENSE.md para detalles.
+>>>>>>> 76bf6296f50c6640fd97470922bd4b835f98a51b
