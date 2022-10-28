@@ -11,20 +11,13 @@ __Pre-requisitos📋__\
 Solo necesitamos abrir el navegador y colocar la siguiente ruta : http://127.0.0.1:5000/ \
 En Visual Studio Code podemos ver las librerias instaladas para poder correr el programa.
 
-<<<<<<< HEAD
-import csv
-from pickle import TRUE
-from this import d
-import registro
-import random
-Ítem 1
-Instalar librería en archivo (registro.py )🔧
 
-import csv
+
+
 **Comenzando 💻**\
-=======
+
 __Comenzando 💻__
->>>>>>> 76bf6296f50c6640fd97470922bd4b835f98a51b
+
 
 ![imagen](/img/Navegador.jpg)
 
