@@ -25,7 +25,7 @@ class Estadistica (db.Model):
     value = db.Column(db.Integer)
 
     def __repr__(self):
-        return f"Paciente {self.name} apellido {self.apell} ritmo cardíaco {self.value}"
+        return f"laboratorio {self.name} apellido {self.apell} venta {self.value}"
 
 
 def insert(time, name, last_name, numero_venta):
