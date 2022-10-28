@@ -40,4 +40,4 @@ Proyecto realizado por : ● Salinas Javier DNI : 27794377
 Licencia📄
 Este proyecto está bajo la Licencia (27.794.377)
 
-Ver el archivo LICENSE.md para detalles
+Ver el archivo LICENSE.md para detalles.
