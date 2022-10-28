@@ -14,7 +14,7 @@ En Visual Studio Code podemos ver las librerias instaladas para poder correr el 
 
 
 
-**Comenzando 💻**\
+
 
 __Comenzando 💻__
 
@@ -33,7 +33,9 @@ que se encuentra en la tabla.
 
 ![imagen](/img/Tabla.jpg)
 
+__Gráficos 💻__
 
+Realizando click el link, vamos a llegar al gráfico con los valores por laboratorio por vendedor.
 
 __Visual Studio Code__\
 __Github__\
@@ -46,11 +48,5 @@ Proyecto realizado por : ● Salinas Javier DNI : 27794377
 Licencia📄
 Este proyecto está bajo la Licencia (27.794.377)
 
-<<<<<<< HEAD
-Ver el archivo LICENSE.md para detalles
 
-**Ejemplos que el profesor mostrará en clase**\
-ejemplos_clase/
-=======
-Ver el archivo LICENSE.md para detalles.
->>>>>>> 76bf6296f50c6640fd97470922bd4b835f98a51b
+
